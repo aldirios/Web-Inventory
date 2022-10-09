@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#print {
+  margin-left: 25px;
+  text-align: center;
+  font-family: "Calibri", Courier, monospace;
+  width: 90%;
+  font-size: 14px;
+  align-items: center;
+}
+
+#print table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px;
+  font-size: 16px;
+}
+
+#print .table1 {
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  margin: 10px;
+}
+
+#print table hr {
+  border: 3px double #000;
+}
+
+#print .ttd {
+  font-size: 16px;
+  float: right;
+  width: 250px;
+  background-position: center;
+  background-size: contain;
+}
+#print table th {
+  color: #000;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+}
+#logo {
+  width: 120px;
+  height: 120px;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px;
+}
+p {
+  margin-top: 20px;
+}
+
+#tabel tr td,
+#tabel tr th {
+  font-size: 17px;
+}

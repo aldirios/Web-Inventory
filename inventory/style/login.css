@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("image/background.png");
+}
+
+.container {
+  background: rgba(255, 255, 255, 0, 25);
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.form-container {
+  position: relative;
+  width: 50%;
+  height: auto;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  transition: all 0.2s 0.7s;
+  overflow: hidden;
+}
+.title {
+  font-size: 2.2rem;
+  width: 100%;
+  text-align: center;
+  color: #444;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #4d84e2;
+  border-radius: 3px;
+}
+.input-field {
+  max-width: 380px;
+  width: 100%;
+  background-color: #fff;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+}
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+.btn {
+  width: 100%;
+  background-color: #5995fd;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #4d84e2;
+}
+.form-container a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.form-container p {
+  font-size: 18px;
+}
